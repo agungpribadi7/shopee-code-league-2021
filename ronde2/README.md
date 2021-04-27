@@ -1,6 +1,6 @@
 **Ronde 2**
 
-Pada ronde ini, peserta diberi tugas untuk memilih kata mana yang merupakan nama lokasi dan nama jalan. Dataset berisikan 300.000 data, yang mana terdiri dari 2 kolom yaitu raw_addres dan nama_lokasi/nama_jalan. Melihat permasalahan tersebut, maka pemakaian teknik NER (Named Entity Recognition) menjadi salah satu pilihan yang tepat karena kita hanya perlu melabeli pada index string keberapa dan berakhir dimana yang merupakan nama lokasi. Pada code yang diberikan pada github ini, akan digunakan framework milik spacy yang mana sudah mendukung NER. Untuk menggunakan framework ini, kita harus mengubah data training menjadi format sebagai berikut:
+Pada ronde ini, peserta diberi tugas untuk memilih kata mana yang merupakan nama lokasi dan nama jalan. Dataset berisikan 300.000 data, yang mana terdiri dari 2 kolom yaitu raw_addres dan nama_lokasi/nama_jalan. Dataset dapat dilihat pada link berikut: https://drive.google.com/file/d/1-USbn5SRS0SWFLWtN6oLJE4CuI3f7yBJ/view?usp=sharing . Melihat permasalahan tersebut, maka pemakaian teknik NER (Named Entity Recognition) menjadi salah satu pilihan yang tepat karena kita hanya perlu melabeli pada index string keberapa dan berakhir dimana yang merupakan nama lokasi. Pada code yang diberikan pada github ini, akan digunakan framework milik spacy yang mana sudah mendukung NER. Untuk menggunakan framework ini, kita harus mengubah data training menjadi format sebagai berikut:
 
 TRAIN_DATA = [
     ['who is nishanth?', {
