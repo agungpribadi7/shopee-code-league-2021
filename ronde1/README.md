@@ -1,4 +1,5 @@
 **ronde1**
+
 Pada ronde ini, peserta diminta agar membuat rantai user(User A, User B) yang mana pemiliknya ada orang yang sama dan menghitung jumlah contact yang dimiliki masing-masing user.
 
 Sebagai contoh, outnya nya adalah: {'1-2458-98519-115061-140081-165605-476346, 12'}
